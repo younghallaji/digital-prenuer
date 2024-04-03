@@ -1,0 +1,7 @@
+[12-Mar-2024 10:49:33 America/New_York] PHP Warning:  require(/home/digipenp/app/digipenpApp/vendor/autoload.php): Failed to open stream: No such file or directory in /home/digipenp/app/index.php on line 34
+[12-Mar-2024 10:49:33 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/digipenp/app/digipenpApp/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/digipenp/app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/digipenp/app/index.php on line 34
+[14-Mar-2024 03:22:50 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/digipenp/app/digipenpApp/vendor/composer/platform_check.php on line 24
+[16-Mar-2024 17:18:13 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/digipenp/app/digipenpApp/app/Http/Controllers/Auth/UserRegister.php on line 13
